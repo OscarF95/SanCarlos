@@ -7,6 +7,6 @@ body{
 #wrapperMain{
 	margin: 0 auto; /*Define márgenes de un elemento*/
 	width: 1000px;
-	height: 500px;
-	background-color: gray;
+	height: 435px;
+	background-color: white;
 }
