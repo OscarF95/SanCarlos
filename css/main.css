@@ -1,11 +1,12 @@
 body{
 	margin: 0 auto;
 	padding: 0;
+	background: #EAE9E4 url('../images/bgPlaya.jpg') no-repeat top;
 }
 
 #wrapperMain{
 	margin: 0 auto; /*Define márgenes de un elemento*/
-	width: 600px;
+	width: 1000px;
 	height: 500px;
 	background-color: gray;
 }
