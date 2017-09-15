@@ -8,7 +8,6 @@ body{
 	margin: 0 auto; /*Define márgenes de un elemento*/
 	width: 1000px;
 	height: 435px;
-	background-color: gray;
 	position: relative;
 }
 
@@ -21,7 +20,18 @@ body{
 	position: absolute;
 	top: 0px;
 	left: 40px;
-	border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 7px 7px;
+	box-shadow: 10px 10px 26px 2px rgba(0,0,0,0.3);
+}
+
+#redesSociales{
+	width: 540px;
+	height: 35px;
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-radius: 0px 0px 7px 7px;
 }
 
 /*------ ESTILOS AUXILIARES -----*/
