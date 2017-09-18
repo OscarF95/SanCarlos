@@ -7,7 +7,10 @@ body{
 #wrapperMain{
 	margin: 0 auto; /*Define márgenes de un elemento*/
 	width: 1000px;
-	height: 500px;
+}
+
+#header{
+	height: 530px;
 	position: relative;
 }
 
@@ -22,6 +25,7 @@ body{
 	left: 40px;
 	border-radius: 0px 0px 7px 7px;
 	box-shadow: 10px 10px 26px 2px rgba(0,0,0,0.3);
+	z-index: 1; /*Solo sirve para elementos posicionados absolutamente*/
 }
 
 #redesSociales{
@@ -40,6 +44,12 @@ body{
 	position: absolute;
 	top: 40px;
 	left: 0px;
+}
+
+#slogan{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 }
 
 /*------ ESTILOS AUXILIARES -----*/
