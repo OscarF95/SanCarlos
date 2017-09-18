@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat');
+
 body{
 	margin: 0 auto;
 	padding: 0;
@@ -50,6 +52,8 @@ body{
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	font-family: 'Caveat', tahoma, sans-serif;
+	font-size: 20px;
 }
 
 /*------ ESTILOS AUXILIARES -----*/
