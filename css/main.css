@@ -7,7 +7,7 @@ body{
 #wrapperMain{
 	margin: 0 auto; /*Define márgenes de un elemento*/
 	width: 1000px;
-	height: 435px;
+	height: 500px;
 	position: relative;
 }
 
@@ -34,8 +34,23 @@ body{
 	border-radius: 0px 0px 7px 7px;
 }
 
+.bannerImage{
+	border-radius: 7px;
+	border: solid 13px #fff;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+
 /*------ ESTILOS AUXILIARES -----*/
 
 .hidden{
 	visibility: hidden;
 }
+
+.marginReset{
+	margin: 0;
+	padding: 0;
+}
+
+
