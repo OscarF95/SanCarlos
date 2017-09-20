@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Caveat');
+@import url('https://fonts.googleapis.com/css?family=Caveat|Open+Sans:300,400,400i,600,700');
 
 body{
 	margin: 0 auto;
 	padding: 0;
 	background: #EAE9E4 url('../images/bgPlaya.jpg') no-repeat top;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 #wrapperMain{
@@ -52,8 +53,17 @@ body{
 	position: absolute;
 	bottom: 0;
 	left: 0;
+	font-size: 30px;
+}
+
+.sloganAzul{
+	color: blue;
+	font-family: 
+}
+
+.sloganNaranja{
 	font-family: 'Caveat', tahoma, sans-serif;
-	font-size: 20px;
+	color: orange;
 }
 
 /*------ ESTILOS AUXILIARES -----*/
