@@ -53,17 +53,19 @@ body{
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	font-size: 30px;
+	font-size: 25px;
 }
 
 .sloganAzul{
-	color: blue;
-	font-family: 
+	letter-spacing: -1px;
+	color: #036AA5;
 }
 
 .sloganNaranja{
 	font-family: 'Caveat', tahoma, sans-serif;
-	color: orange;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: #F58D1A;
 }
 
 /*------ ESTILOS AUXILIARES -----*/
@@ -77,4 +79,6 @@ body{
 	padding: 0;
 }
 
-
+.txtLight{ font-weight: 300; }
+.txtSemiBold{ font-weight: 600; }
+.txtBold{ font-weight: 700; }
