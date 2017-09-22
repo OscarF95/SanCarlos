@@ -68,6 +68,11 @@ body{
 	color: #F58D1A;
 }
 
+#wrapperContent{
+	background-color: #fff;
+	border-radius: 7px;
+}
+
 /*------ ESTILOS AUXILIARES -----*/
 
 .hidden{
