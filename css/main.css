@@ -71,6 +71,7 @@ body{
 
 #navMain ul li{
 	display: inline-block;
+	padding: 2px 0 0 0;
 }
 
 #navMain{
