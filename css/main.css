@@ -69,6 +69,19 @@ body{
 	color: #F58D1A;
 }
 
+#navMain ul li{
+	display: inline-block;
+}
+
+#navMain{
+	width: 700px;
+	height: 35px;
+	background-color: #036AA5;
+	position: absolute;
+	top: 555px;
+	left: 0px;
+}
+
 #wrapperContent{
 	background-color: #fff;
 	border-radius: 7px;
@@ -84,14 +97,7 @@ body{
 	float: right; /* Puede ser también left */
 }
 
-#navMain{
-	width: 700px;
-	height: 35px;
-	background-color: #036AA5;
-	position: absolute;
-	top: 555px;
-	left: 0px;
-}
+
 
 /*------ ESTILOS AUXILIARES -----*/
 
