@@ -71,8 +71,9 @@ body{
 
 #navMain ul li{
 	display: inline-block;
-	padding: 4px 10px 0 0;
+	padding: 4px 10px 0px 0px;
 	margin-left: 15px;
+	height: 31px;
 }
 
 #navMain ul li ul li{
@@ -102,6 +103,10 @@ body{
 
 #navMain a:hover{
 	color: #F58D1A;
+}
+
+.cosita{
+	background: url('../images/cosita.gif') center 27px no-repeat;
 }
 
 #wrapperContent{
