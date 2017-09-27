@@ -74,6 +74,10 @@ body{
 	padding: 2px 0 0 0;
 }
 
+#navMain ul li ul li{
+	display: initial;
+}
+
 #navMain{
 	width: 700px;
 	height: 35px;
@@ -81,7 +85,8 @@ body{
 	position: absolute;
 	top: 555px;
 	left: 0px;
-	font-family: "Caveat", sans-serif;
+	font-family: 'Caveat', sans-serif;
+	color: #fff;
 }
 
 #wrapperContent{
