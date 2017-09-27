@@ -71,7 +71,8 @@ body{
 
 #navMain ul li{
 	display: inline-block;
-	padding: 2px 0 0 0;
+	padding: 4px 10px 0 0;
+	margin-left: 15px;
 }
 
 #navMain ul li ul li{
@@ -91,6 +92,7 @@ body{
 	left: 0px;
 	font-family: 'Caveat', sans-serif;
 	color: #fff;
+	font-size: 20px;
 }
 
 #navMain a{
@@ -100,7 +102,6 @@ body{
 
 #navMain a:hover{
 	color: #F58D1A;
-	text-decoration: underline;
 }
 
 #wrapperContent{
