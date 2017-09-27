@@ -78,6 +78,10 @@ body{
 	display: initial;
 }
 
+#navMain ul li ul{
+	display: none;
+}
+
 #navMain{
 	width: 700px;
 	height: 35px;
@@ -87,6 +91,16 @@ body{
 	left: 0px;
 	font-family: 'Caveat', sans-serif;
 	color: #fff;
+}
+
+#navMain a{
+	color: #fff;
+	text-decoration: none;
+}
+
+#navMain a:hover{
+	color: #F58D1A;
+	text-decoration: underline;
 }
 
 #wrapperContent{
