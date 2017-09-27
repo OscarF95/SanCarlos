@@ -112,6 +112,7 @@ body{
 #wrapperContent{
 	background-color: #fff;
 	border-radius: 7px;
+	height: 500px;
 }
 
 #contenido{
