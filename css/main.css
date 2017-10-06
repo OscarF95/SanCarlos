@@ -81,9 +81,8 @@ body{
 
 #navMain ul li {
     display: inline-block;
-    padding: 4px 12px 0 0;
-    margin-left: 15px;
-    height: 31px;
+    padding: 5px 13px;
+    height: 25px;
     position: relative;
 }
 
@@ -140,6 +139,31 @@ body{
 	float: right; /* Puede ser también left */
 }
 
+#calendario{
+	background: linear-gradient(to bottom, #ffc52b 0%, #fff 60%);
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	position: relative;
+	top: -30px;
+	height: 400px;
+}
+
+#calTitle{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+#calMes{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-transform: lowercase;
+}
+
+#calList{
+	background: rgba(255, 255, 255, 0.3);
+}
 
 
 /*------ ESTILOS AUXILIARES -----*/
@@ -162,3 +186,6 @@ body{
 	padding: 0;
 	list-style-type: none;
 }
+
+.fuckYou{ display: none; }
+
