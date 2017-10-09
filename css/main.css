@@ -146,23 +146,45 @@ body{
 	position: relative;
 	top: -30px;
 	height: 400px;
+	padding: 35px 15px;
 }
 
 #calTitle{
 	position: absolute;
-	top: 0px;
-	left: 0px;
+	top: 8px;
+	left: 13px;
+	font-weight: 400;
+	color: #333;
 }
 
 #calMes{
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: 7px;
+	right: 14px;
 	text-transform: lowercase;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 25px;
 }
 
 #calList{
 	background: rgba(255, 255, 255, 0.3);
+}
+
+#calList li {
+	height: 40px;
+}
+
+.eventDate{
+	height: 40px;
+	width: 40px;
+	float: left;
+	background-image: url('../images/bgFecha.png');
+}
+
+#calList p {
+	margin: 0px;
+	padding: 0px;
 }
 
 
