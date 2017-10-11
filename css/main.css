@@ -169,22 +169,43 @@ body{
 
 #calList{
 	background: rgba(255, 255, 255, 0.3);
+	padding: 10px;
 }
 
 #calList li {
 	height: 40px;
+	margin-bottom: 10px;
 }
 
-.eventDate{
+#calList p.eventDate{
 	height: 40px;
 	width: 40px;
 	float: left;
-	background-image: url('../images/bgFecha.png');
+	background: url('../images/bgFecha.png') no-repeat;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.eventTitle{
+	font-size: 16px;
+	color: #F58D1A;
+	padding-top: 3px !important;
+}
+
+.eventDesc{
+	font-size: 12px;
+	color: #333;
 }
 
 #calList p {
 	margin: 0px;
 	padding: 0px;
+	line-height: 16px;
+
+}
+
+#calList a {
+	text-decoration: none;
 }
 
 
