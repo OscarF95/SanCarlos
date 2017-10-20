@@ -145,8 +145,7 @@ body{
 	border-top-right-radius: 7px;
 	position: relative;
 	top: -30px;
-	height: 400px;
-	padding: 35px 15px;
+	padding: 35px 15px 0px 15px;
 }
 
 #calTitle{
@@ -216,6 +215,18 @@ body{
 	padding-top: 14px;
 }
 
+#publicidad{
+	padding-left: 15px;
+}
+
+.masEventos{
+	color: #F58D1A;
+	text-decoration: none;
+}
+
+.masEventos:hover{
+	text-decoration: underline;
+}
 
 /*------ ESTILOS AUXILIARES -----*/
 
